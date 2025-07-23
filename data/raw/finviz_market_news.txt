@@ -1,0 +1,231 @@
+date,provider,headline
+Jul-23-2025,Bloomberg,Bessent Says ‘No Rush’ to Choose Successor to Fed Chair Powell
+Jul-23-2025,Bloomberg,Sugar Drops on Signals India to Approve Exports in New Season
+Jul-23-2025,Bloomberg,Brookfield Is Missing Out on the PE Secondaries Boom Its CEO Saw Coming
+Jul-23-2025,Bloomberg,US Futures Rise on Japan Deal With Tech in Focus: Markets Wrap
+Jul-23-2025,Bloomberg,"Dutch Pension Revamp Set to Upend Rate Swap Trading, ABN Warns"
+Jul-23-2025,Bloomberg,Equinor Says Politics-Led Volatility Hurting Its Energy Trading
+Jul-23-2025,Bloomberg,Adcock Surges to Record as India’s Natco Agrees to Acquire Stake
+Jul-23-2025,Bloomberg,"RBI Says India Economic Activity Lifted By Agriculture, Services"
+Jul-23-2025,Bloomberg,Coke’s New Cane-Sweetened Soda Risks Upending US Sugar Supplies
+Jul-23-2025,Bloomberg,BP Says Possible Contamination of Some Azeri Oil Identified
+Jul-23-2025,Reuters,US stock market concentration risks come to fore as megacaps report earnings
+Jul-23-2025,Reuters,"European, Japan stocks surge after US-Japan trade deal"
+Jul-23-2025,Reuters,"Nikkei, EU stocks surge as US-Japan trade deal avoids the worst"
+Jul-22-2025,Reuters,Nikkei rally buoys Asian shares as Trump announces Japan trade deal
+Jul-22-2025,Reuters,Dollar holds losses against yen after Trump announces Japan trade deal
+Jul-22-2025,Reuters,"Trading Day: Tech cools, Trump's Fed ire burns"
+Jul-22-2025,Reuters,S&P 500 notches record-high close; GM slumps as tariffs bite
+Jul-22-2025,Reuters,Wall Street ends mixed; GM slumps as tariffs bite
+Jul-22-2025,Reuters,Wall Street mixed; GM slumps as tariffs bite
+Jul-22-2025,Reuters,"Trump says Fed's Powell will be out in 8 months, calls him a 'numbskull'"
+Jul-23-2025,BBC,Faisal Islam: Trump's tough tariff tactics are getting results
+Jul-23-2025,BBC,What the US-Japan deal means for Asia and the world
+Jul-23-2025,BBC,City traders have rate-rigging convictions quashed
+Jul-23-2025,BBC,Heathrow boss 'frustrated' at being asleep during fire
+Jul-23-2025,BBC,"Tax row will put young people off farming, M&S boss says"
+Jul-22-2025,BBC,"Microsoft servers hacked by Chinese groups, firm says"
+Jul-22-2025,BBC,Trump announces 'massive' trade deal with Japan
+Jul-22-2025,BBC,Mike Lynch estate and business partner owe HP Enterprise £700m
+Jul-22-2025,BBC,Food bills on course to rise by £275 as prices jump
+Jul-21-2025,BBC,Trucking's uneasy relationship with new tech
+Jul-23-2025,WSJ,Will Buffett’s Successor Get the Same Free Pass From Investors?
+Jul-23-2025,WSJ,"Tom Hayes, Libor ‘Ringleader,’ Wins U.K. Appeal to Clear His Name"
+Jul-23-2025,WSJ,Stock Market Today: Dow Futures Rise After U.S.-Japan Trade Deal
+Jul-22-2025,WSJ,Morgan Stanley’s Screening of Wealth-Management Clients Draws More Scrutiny
+Jul-22-2025,WSJ,Kohl’s and Opendoor Headline a New Class of Meme Stocks
+Jul-22-2025,WSJ,S&P 500 Hits New Record on Trade Deals
+Jul-22-2025,WSJ,Mike Lynch’s Estate Hit by $900 Million-Plus Court Order
+Jul-22-2025,WSJ,Why Are Stocks Up? Nobody Knows
+Jul-21-2025,WSJ,What Chip-Stock Investors Are Missing About Tariffs
+Jul-20-2025,WSJ,Netflix Is Running Out of Worlds to Conquer
+Jul-23-2025,CNBC,"GoPro, Krispy Kreme join the meme party as Wall Street speculation ramps up"
+Jul-23-2025,CNBC,Goldman Sachs and BNY join forces to transform $7.1 trillion money market industry with digital tokens
+Jul-23-2025,CNBC,From robotaxis to rockets: Morningstar rated these two ETFs as top performers. How they're positioning right now
+Jul-23-2025,CNBC,Dow futures pop more than 200 points after Trump announces Japan trade deal
+Jul-23-2025,CNBC,China's tech talent are making big strides — they're creating apps for the world
+Jul-22-2025,CNBC,Capital One shares climb as investors buy into the vision of its future with Discover
+Jul-22-2025,CNBC,Trump backs further away from firing Powell: 'He's going to be out pretty soon anyway'
+Jul-22-2025,CNBC,Bessent says Powell doesn't need to resign but should conduct internal review
+Jul-22-2025,CNBC,Warren Buffett knocks down reports that Berkshire's BNSF taps Goldman for a railroad takeover
+Jul-22-2025,CNBC,Credit card startup Imprint beats big banks for Rakuten co-brand deal
+Jul-23-2025,The New York Times,Global Markets Rally on Japan Deal Euphoria
+Jul-23-2025,The New York Times,Behind Japan’s Trade Deal: 8 Rounds of Talks and ‘Hurrying Slowly’
+Jul-23-2025,The New York Times,"With Labubus and a Cat Cafe, a Shopping Mall Thrives in New York City"
+Jul-23-2025,The New York Times,Power Bank Suspected as Cause of Fire on Virgin Australia Flight
+Jul-22-2025,The New York Times,Alden Global Capital Makes a Play for The Dallas Morning News
+Jul-22-2025,The New York Times,Federal Prosecutors Close Inquiry Into Co-Founder of Kraken Crypto Exchange
+Jul-22-2025,The New York Times,"In Trump’s Battle With Murdoch, Fox News Is a Complication"
+Jul-22-2025,The New York Times,What to Know About the $250 Visa Integrity Fee for U.S. Tourists
+Jul-22-2025,The New York Times,Appeals Court Upholds Ruling Restricting Associated Press Access to Trump
+Jul-22-2025,The New York Times,"Jack McAuliffe, Who Brewed a Craft Beer Revolution, Dies at 80"
+Jul-23-2025,MarketWatch,Why Krispy Kreme is joining the meme-stock party.
+Jul-23-2025,MarketWatch,AT&T posts big subscriber beat and tops earnings and revenue expectations
+Jul-23-2025,MarketWatch,The S&P 500 just did something it’s only done four times in 50 years. Here’s what happened next.
+Jul-23-2025,MarketWatch,"Dow, Nasdaq point higher, S&P 500 eyes fresh record after U.S.-Japan trade deal"
+Jul-23-2025,MarketWatch,U.K. Supreme Court quashes Tom Hayes' conviction for Libor interest-rate rigging
+Jul-22-2025,MarketWatch,Coke will pit two versions of its key product against each other. Is that wise?
+Jul-22-2025,MarketWatch,Benchmark small-cap index is approaching its first ‘golden cross’ in 18 months
+Jul-22-2025,MarketWatch,Kohl’s soars and Opendoor sees massive volume as meme-stock ‘mini-bubble’ forms
+Jul-22-2025,MarketWatch,"As Oracle’s stock falls after Stargate news, here’s a big question for investors"
+Jul-22-2025,MarketWatch,"Retail traders just can’t quit these risky options, as trading volume booms"
+Jul-23-2025,Fox Business,"Trump will strategically cut spending despite Schumer's shutdown threat, senator says"
+Jul-23-2025,Fox Business,"Trump's 'big, beautiful bill' sparks investment surge across American businesses"
+Jul-22-2025,Fox Business,Hershey raising chocolate prices by double-digits as cocoa costs soar: report
+Jul-22-2025,Fox Business,Government-funded grocery store flounders in Midwest city as similar proposal gains steam in NYC
+Jul-22-2025,Fox Business,Top Trump official slated to inspect Fed's $2.5B renovation amid cost scrutiny
+Jul-22-2025,Fox Business,How this sequence can help you 'define risk' in the stock market
+Jul-22-2025,Fox Business,"'The equity markets keep racing ahead,' says Mark Heppenstall"
+Jul-22-2025,Fox Business,Government-funded grocery store flounders in Midwest city as similar proposal gains stream in NYC
+Jul-22-2025,Fox Business,"National Debt Tracker: American taxpayers (you) are now on the hook for $36,653,918,652,499.85 as of 7/21/25"
+Jul-22-2025,Fox Business,Wall Street's 'most hated rally in history' keeps defying experts: Charles Payne
+Jul-23-2025,Yahoo Finance,"Trump gets Japan deal, but EU digs in with $100B response"
+Jul-23-2025,Yahoo Finance,US stock futures rise after Japan trade deal
+Jul-23-2025,Yahoo Finance,"Krispy Kreme, GoPro soar as meme mania rolls on"
+Jul-23-2025,Yahoo Finance,How the dollar's drop could scramble Trump's agenda
+Jul-23-2025,Yahoo Finance,"Google earnings on deck: AI results wanted, not just hype"
+Jul-23-2025,Yahoo Finance,Trump strikes Japan trade deal lowering tariff to 15%
+Jul-23-2025,Yahoo Finance,Musk-Trump tensions loom over Tesla earnings
+Jul-23-2025,Yahoo Finance,US stock futures climb after Japan trade deal
+Jul-23-2025,Yahoo Finance,Trump announces trade deal with Japan including 15% tariff
+Jul-23-2025,Yahoo Finance,Japan's PM to say he'll quit as soon as this month
+Jul-22-2025,Abnormal Returns,Tuesday links: vanishingly few federal officials
+Jul-22-2025,Abnormal Returns,Research links: fewer people covering stocks
+Jul-21-2025,Abnormal Returns,Monday links: the Bitcoin buzz
+Jul-21-2025,Abnormal Returns,Adviser links: sitting in the middle
+Jul-20-2025,Abnormal Returns,Sunday links: yesterday’s narrative
+Jul-20-2025,Abnormal Returns,Top clicks this week on Abnormal Returns
+Jul-19-2025,Abnormal Returns,Saturday links: cigarette butlers
+Jul-18-2025,Abnormal Returns,Friday links: quitting time
+Jul-18-2025,Abnormal Returns,Podcast links: dangerous ideas
+Jul-17-2025,Abnormal Returns,Thursday links: central bank independence
+Jul-23-2025,The Capital Spectator,Medium-Term Corporates Lead US Bond Market In 2025
+Jul-23-2025,The Capital Spectator,Macro Briefing: 23 July 2025
+Jul-22-2025,The Capital Spectator,Have The Bond Vigilantes Dismissed Tariff-Inflation Risk?
+Jul-22-2025,The Capital Spectator,Macro Briefing: 22 July 2025
+Jul-21-2025,The Capital Spectator,Risk-On Sentiment Remains Resilient For Global Strategies
+Jul-21-2025,The Capital Spectator,Macro Briefing: 21 July 2025
+Jul-19-2025,The Capital Spectator,Book Bits: 19 July 2025
+Jul-18-2025,The Capital Spectator,Moderate Rebound Still Expected For US Economy In Q2 GDP Data
+Jul-18-2025,The Capital Spectator,Macro Briefing: 18 July 2025
+Jul-17-2025,The Capital Spectator,Industrials Holding On To Lead As Top Equity Sector In 2025
+Jul-22-2025,The Big Picture,"Transcript: Neil Dutta, RenMac"
+Jul-19-2025,The Big Picture,10 Weekend Reads
+Jul-18-2025,The Big Picture,"MiB: Neil Dutta, Economics Chief at Renaissance Macro Research"
+Jul-18-2025,The Big Picture,10 Friday AM Reads
+Jul-17-2025,The Big Picture,The (Muted) Impact of Tariffs on Inflation
+Jul-16-2025,The Big Picture,At The Money: How to Spend Your Money in Retirement
+Jul-15-2025,The Big Picture,"Transcript: Richard Bernstein, CEO / CIO of RBA"
+Jul-13-2025,The Big Picture,10 Sunday Reads
+Jul-10-2025,The Big Picture,10 Thursday AM Reads
+Jul-07-2025,The Big Picture,10 Monday AM Reads
+Jul-22-2025,Daily Reckoning,The Parts are Wearing Out
+Jul-22-2025,Daily Reckoning,I’m Busy… Out Looking for Gold
+Jul-21-2025,Daily Reckoning,The Untold Story Behind Silver’s 30x Move
+Jul-19-2025,Daily Reckoning,Elon’s New Political Party Will Fail
+Jul-18-2025,Daily Reckoning,Beware Elon’s Dangerous New AI Girlfriend
+Jul-17-2025,Daily Reckoning,AI WARS: China vs. United States
+Jul-16-2025,Daily Reckoning,A Visit to Jersey
+Jul-15-2025,Daily Reckoning,"1 Birthright Gold Stock, 1 Pure Silver Play"
+Jul-15-2025,Daily Reckoning,"Rick Rule’s Big, Beautiful Gold-Silver-Copper (and More) Conference"
+Jul-14-2025,Daily Reckoning,Mistrusting Government about Epstein and More
+Jul-21-2025,Stratechery,Content and Community
+Jul-08-2025,Stratechery,Tech Philosophy and AI Opportunity
+Jun-23-2025,Stratechery,Checking In on AI and the Big Five
+Jun-10-2025,Stratechery,Apple Retreats
+May-20-2025,Stratechery,The Agentic Web and Original Sin
+May-05-2025,Stratechery,Platform Power Is Underrated
+Apr-22-2025,Stratechery,Apple and the Ghosts of Companies Past
+Apr-09-2025,Stratechery,American Disruption
+Apr-07-2025,Stratechery,"Trade, Tariffs, and Tech"
+Mar-24-2025,Stratechery,"YouTube TV, Wiz, and Why Monopolies Buy Innovation"
+Jul-23-2025,Real Investment Advice,351 ETFs: A New Yet Old Way To Avoid Taxes
+Jul-23-2025,Real Investment Advice,AI Is Powering Markets
+Jul-22-2025,Real Investment Advice,Will The Healthcare Sector Be The Next Rotation?
+Jul-21-2025,Real Investment Advice,Retail Speculation Is Back With A Vengeance
+Jul-19-2025,Real Investment Advice,Company Buybacks Are Surging
+Jul-19-2025,Real Investment Advice,July Rate Cut Now Has One Fed Vote
+Jul-18-2025,Real Investment Advice,Trump Tests The Waters On Firing Powell
+Jul-18-2025,Real Investment Advice,China’s Economic Demise And Its Impact On The U.S.
+Jul-17-2025,Real Investment Advice,PPI Takes A Bite Out Of The Tariff-Inflation Narrative
+Jul-16-2025,Real Investment Advice,The Magnificent Seven Are Mediocre
+Jul-23-2025,Zero Hedge,Tulsi Is About To Drop More Evidence Against Barack Obama
+Jul-23-2025,Zero Hedge,Goldman Goes Limp Over Grindr User Slowdown
+Jul-23-2025,Zero Hedge,DOJ Says Alina Habba's Replacement As US Attorney For New Jersey Has Been Removed
+Jul-23-2025,Zero Hedge,"Global Stocks, US Futures Trade In Record Territory After US-Japan Trade Deal"
+Jul-23-2025,Zero Hedge,Brace For Soaring Electricity Bills: Biggest US Power Grid Sets Power Costs At Record High To Feed AI
+Jul-23-2025,Zero Hedge,"Goldman Sees Boycott Easing For Target - But Says ""Still Too Early For Turnaround"" Story"
+Jul-23-2025,Zero Hedge,Pressure Mounts For Pope Leo To Make Risky Gaza Visit: 'Break The Siege'
+Jul-23-2025,Zero Hedge,It's The Meme Craze Of 2021 All Over Again: Here Are The Most-Shorted Stocks That Could Soar
+Jul-23-2025,Zero Hedge,Japanese Auto Stocks Soar On Trump Trade Deal
+Jul-23-2025,Zero Hedge,Microsoft Says China-Linked Hackers Used Recent Security Exploit In Hacking Spree
+Jul-20-2025,Trader Feed,Why Do I Go On Tilt?
+Jul-13-2025,Trader Feed,The Psychology of Finding and Trading Edges in the Market
+Jul-06-2025,Trader Feed,Our Trading Psychology Is Shaped By The Questions We Ask
+Jun-30-2025,Trader Feed,Best Trading Practice: Intensifying Trading Focus
+Jun-24-2025,Trader Feed,Best Trading Practice: Using Core Motivations to Change Your Life and Your Trading
+Jun-22-2025,Trader Feed,Best Trading Practice: Rule-Based Sizing of Positions
+Jun-13-2025,Trader Feed,A Different Kind of Trading Psychology Workshop
+Jun-08-2025,Trader Feed,Understanding Your Best Trading
+May-30-2025,Trader Feed,Trading Psychology Principles and Best Practices
+Sep-13-2025,Trader Feed,BRETT STEENBARGER'S TRADING PSYCHOLOGY RESOURCE CENTER
+Jul-22-2025,Howard Lindzon,The Gilded Age 2.0 ...More Opportunity and More Grift
+Jul-21-2025,Howard Lindzon,Momentum Monday - You Do Not Have To Like The Bull Market To Ride It
+Jul-20-2025,Howard Lindzon,The Putz And The Genius Act and More Degeneracy For All...Sunday Reads and Listens
+Jul-18-2025,Howard Lindzon,Stocktwits Acquires Thematic..An AI-Powered Research Platform
+Jul-15-2025,Howard Lindzon,Less Fundamentals...More Bets (The Tagline Of The Degenerate Economy)! And Why All The Bitcoin Treasury Companies?
+Jul-14-2025,Howard Lindzon,Momentum Monday - The Big Picture and Price Action Is Bullish...But Do Not Chase
+Jul-13-2025,Howard Lindzon,"Breakfast at Wimbledon, The Stelvio Pass, Mentorship and The Invest America Act...Sunday Reads and Listens"
+Jul-11-2025,Howard Lindzon,Stocktoberfest Is Back ...October 20-22 on Coronado
+Jul-10-2025,Howard Lindzon,The Degenerate Economy Will Be Tokenized...Don't Underestimate The Other Guys Greed!
+Jul-07-2025,Howard Lindzon,Momentum Monday - The Bull Market Is Expanding
+Jul-22-2025,Angry Bear,Tax Payments by Undocumented Immigrants.
+Jul-22-2025,Angry Bear,"A Review, “1984”"
+Jul-22-2025,Angry Bear,Facts About Immigrants and Medicaid
+Jul-21-2025,Angry Bear,An Opinion Masquerading as Science
+Jul-21-2025,Angry Bear,Immigration and Deportation
+Jul-21-2025,Angry Bear,Statement on the 2025 Social Security Trustees Report
+Jul-21-2025,Angry Bear,“We can have a democratic society or we can have the concentration of great wealth in the hands of a few. We cannot have both.”
+Jul-20-2025,Angry Bear,"July 16, 2024 Commentary"
+Jul-20-2025,Angry Bear,The R-Words . . . Reasonable or Racial?
+Jul-20-2025,Angry Bear,The War on Women
+Jul-22-2025,Seeking Alpha,IQVIA: Q2 Earnings Exceeded My Expectations
+Jul-22-2025,Seeking Alpha,Synchrony Financial: Still Bullish But More Cautious Near All-Time Highs
+Jul-22-2025,Seeking Alpha,"50 Years, Still Waiting: The De-Dollarization Lie"
+Jul-22-2025,Seeking Alpha,Gold And Silver Soar Amid Dollar Selloff
+Jul-22-2025,Seeking Alpha,RTX Vs. Lockheed: I've Picked My Fighter - And It's Not Even Close
+Jul-22-2025,Seeking Alpha,Bitcoin's Demise Is Inevitable
+Jul-22-2025,Seeking Alpha,Hedging The Corn Cycle: Pairing The Andersons With Tyson Foods
+Jul-21-2025,Seeking Alpha,"Follow The Consumer, They Lead The Way"
+Jul-21-2025,Seeking Alpha,Eli Lilly: Competition Melts Away
+Jul-20-2025,Seeking Alpha,Applied Digital: A Q4 Surprise Could Be The Spark For A Multi-Year Breakout
+Jul-20-2025,Fallond Stock Picks,Things A Little Scrappy For Russell 2000 ($IWM) As Indices Creep Higher
+Jul-17-2025,Fallond Stock Picks,Buyers Go Long
+Jul-15-2025,Fallond Stock Picks,Bearish Engulfing Pattern ($IWM) On Confirmed Volume Distribution
+Jul-13-2025,Fallond Stock Picks,S&P and Bitcoin Breakouts On Weekly Time Frame Joins Nasdaq
+Jul-09-2025,Fallond Stock Picks,"Small, Steady Steps For Markets as Bitcoin Breaks out"
+Jul-03-2025,Fallond Stock Picks,July 4th Kicker Gap For Indices
+Jul-01-2025,Fallond Stock Picks,Russell 2000 ($IWM) Kicks On
+Jun-29-2025,Fallond Stock Picks,Weekly Charts Reflect Market Positivity
+Jun-26-2025,Fallond Stock Picks,Majority Of Markets Are Again Net Bullish
+Jun-24-2025,Fallond Stock Picks,Markets Kick On With Gap Opens
+Jul-23-2025,Calculated Risk,MBA: Mortgage Applications Increase in Latest Weekly Survey
+Jul-22-2025,Calculated Risk,Wednesday: Existing Home Sales
+Jul-22-2025,Calculated Risk,Update: Lumber Prices Up 30% YoY
+Jul-22-2025,Calculated Risk,Fed Forecasts: No Cuts or Three Cuts in 2025?
+Jul-22-2025,Calculated Risk,California Home Sales Down Slightly YoY in June
+Jul-21-2025,Calculated Risk,"Tuesday: Fed Chair Powell, Richmond Fed Mfg"
+Jul-21-2025,Calculated Risk,NMHC on Apartments: Market conditions Tightened in Q2
+Jul-21-2025,Calculated Risk,Goldman's Mid-Year Housing Outlook
+Jul-21-2025,Calculated Risk,Housing July 21st Weekly Update: Inventory up 1.2% Week-over-week; Down 11% from 2019 Levels
+Jul-20-2025,Calculated Risk,Sunday Night Futures
+Jul-22-2025,Mish's Global Economic Trend Analysis,Ukraine War Update: It’s Now a War Between Killer Drones
+Jul-22-2025,Mish's Global Economic Trend Analysis,"Big Epstein Coverup Is Underway, a Pardon Coming to Hide the Facts"
+Jul-22-2025,Mish's Global Economic Trend Analysis,GM Profit Down 35 Percent Due to $1.1 Billion Tariff Hit
+Jul-21-2025,Mish's Global Economic Trend Analysis,Amazon Increases Prices on Hundreds of Essentials After Saying it Wouldn’t
+Jul-21-2025,Mish's Global Economic Trend Analysis,"EU’s Response to Trump’s Tariffs “If they want war, they will get war”"
+Jul-20-2025,Mish's Global Economic Trend Analysis,"Motor Trend Tests Tesla’s FSD, Tesla Flunks 3 Ways, Funny Videos"
+Jul-20-2025,Mish's Global Economic Trend Analysis,Here’s the Lie of the Day on Fed Independence
+Jul-19-2025,Mish's Global Economic Trend Analysis,"Only Three of 12 Fed Regions Are Growing, Two Slightly"
+Jul-19-2025,Mish's Global Economic Trend Analysis,"Hello New York, the UK Shows that if You Tax the Rich, They Will Flee"
+Jul-19-2025,Mish's Global Economic Trend Analysis,"Who’s Paying Trump’s Tariffs? Foreign Producers, Walmart, or You?"

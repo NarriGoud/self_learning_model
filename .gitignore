@@ -1,0 +1,41 @@
+# --- Python Bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environment ---
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# --- Environment Variables ---
+.env
+
+# --- Logs ---
+*.log
+logs/
+*.sqlite3
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- IDEs and Editors ---
+# VS Code
+.vscode/
+# PyCharm
+.idea/
+
+# --- Build/System Files ---
+*.egg-info/
+dist/
+build/
+
+# --- Notebooks (optional) ---
+.ipynb_checkpoints/
+
+# --- Backup files ---
+*.bak
+*.swp

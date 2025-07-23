@@ -1,0 +1,66 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+import time
+import os
+import csv
+
+# --- Config ---
+CHROMEDRIVER_PATH = "C:\\Drivers\\Chrome drivers\\chromedriver.exe"
+TARGET_URL = "https://finviz.com/news.ashx?v=2"
+OUTPUT_FILE = "data/raw/finviz_market_news.txt"
+YEAR = "2025"
+
+def setup_driver(chromedriver_path):
+    options = Options()
+    options.add_experimental_option('excludeSwitches', ['enable-logging'])
+    driver = webdriver.Chrome(service=Service(chromedriver_path), options=options)
+    return driver
+
+def scrape_news(driver, year):
+    print(f"Navigating to {TARGET_URL}...")
+    driver.get(TARGET_URL)
+    time.sleep(5)  # Allow page to load
+    print("Page loaded, starting to scrape...")
+
+    rows = driver.find_elements(By.CSS_SELECTOR, "tr.news_table-row")
+    current_provider = None
+    scraped_data = []
+
+    for row in rows:
+        try:
+            # Check if row is a provider heading
+            provider_cell = row.find_elements(By.CLASS_NAME, "news_heading-cell")
+            if provider_cell:
+                current_provider = provider_cell[0].text.strip()
+                continue
+
+            if current_provider:
+                time_elem = row.find_element(By.CLASS_NAME, "news_date-cell").text.strip()
+                headline_elem = row.find_element(By.CLASS_NAME, "nn-tab-link").text.strip()
+                full_datetime = f"{time_elem}-{year}"
+                scraped_data.append((full_datetime, current_provider, headline_elem))
+        except:
+            continue
+
+    return scraped_data
+
+def save_to_txt(data, output_file):
+    os.makedirs(os.path.dirname(output_file), exist_ok=True)
+    with open(output_file, "w", encoding="utf-8", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["date", "provider", "headline"])  # ✅ header added
+        writer.writerows(data)
+    print(f"Scraped {len(data)} news items and saved to {output_file}")
+
+def finviz_market_news_scraper():
+    driver = setup_driver(CHROMEDRIVER_PATH)
+    try:
+        data = scrape_news(driver, YEAR)
+    finally:
+        driver.quit()
+    save_to_txt(data, OUTPUT_FILE)
+
+if __name__ == "__main__":
+    finviz_market_news_scraper()
