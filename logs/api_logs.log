@@ -1,0 +1,275 @@
+2025-07-23 18:39:36,922 [INFO] uvicorn.error - Started server process [40292]
+2025-07-23 18:39:36,922 [INFO] uvicorn.error - Waiting for application startup.
+2025-07-23 18:39:36,922 [INFO] uvicorn.error - Application startup complete.
+2025-07-23 18:39:54,217 [INFO] app - API Key validated successfully.
+2025-07-23 18:39:54,220 [INFO] app - Received request for root route (list all routes).
+2025-07-23 18:39:54,220 [INFO] app - Successfully listed all routes.
+2025-07-23 18:39:54,222 [INFO] uvicorn.access - 192.168.152.192:40113 - "GET / HTTP/1.1" 200
+2025-07-23 18:40:44,187 [INFO] app - API Key validated successfully.
+2025-07-23 18:40:44,187 [INFO] app - Received request to run full pipeline.
+2025-07-23 18:40:44,187 [INFO] app - Starting full pipeline...
+2025-07-23 18:40:44,187 [INFO] app - [2025-07-23 18:40:44] Attempting to run script: main.py
+2025-07-23 18:40:44,318 [ERROR] app - [2025-07-23 18:40:44] Script ERR: main.py - python: can't open file 'C:\\Users\\Narendra\\OneDrive\\Desktop\\self_learning_model\\API\\main.py': [Errno 2] No such file or directory
+2025-07-23 18:40:44,318 [ERROR] app - [2025-07-23 18:40:44] Script FAILED: main.py exited with code 2. STDOUT: . STDERR: python: can't open file 'C:\\Users\\Narendra\\OneDrive\\Desktop\\self_learning_model\\API\\main.py': [Errno 2] No such file or directory
+2025-07-23 18:40:44,318 [ERROR] app - Pipeline: Script 'main.py' failed. Halting or continuing based on pipeline logic.
+2025-07-23 18:40:44,318 [INFO] app - Full pipeline execution completed.
+2025-07-23 18:40:44,318 [INFO] uvicorn.access - 192.168.152.192:40137 - "GET /pipeline/run_main_file HTTP/1.1" 200
+2025-07-23 18:42:10,981 [INFO] uvicorn.error - Shutting down
+2025-07-23 18:42:11,092 [INFO] uvicorn.error - Waiting for application shutdown.
+2025-07-23 18:42:11,092 [INFO] uvicorn.error - Application shutdown complete.
+2025-07-23 18:42:11,094 [INFO] uvicorn.error - Finished server process [40292]
+2025-07-23 18:42:12,233 [INFO] uvicorn.error - Started server process [44716]
+2025-07-23 18:42:12,233 [INFO] uvicorn.error - Waiting for application startup.
+2025-07-23 18:42:12,233 [INFO] uvicorn.error - Application startup complete.
+2025-07-23 18:42:20,867 [INFO] app - API Key validated successfully.
+2025-07-23 18:42:20,867 [INFO] app - Received request to run full pipeline.
+2025-07-23 18:42:20,867 [INFO] app - Starting full pipeline...
+2025-07-23 18:42:20,867 [INFO] app - [2025-07-23 18:42:20] Attempting to run script: ../main.py
+2025-07-23 18:42:59,708 [ERROR] app - [2025-07-23 18:42:20] Script ERR: ../main.py - 2025-07-23 18:42:46.661852: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-07-23 18:42:59,708 [ERROR] app - [2025-07-23 18:42:20] Script ERR: ../main.py - AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+2025-07-23 18:42:59,708 [ERROR] app - [2025-07-23 18:42:20] Script ERR: ../main.py - AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+2025-07-23 18:42:59,708 [ERROR] app - [2025-07-23 18:42:20] Script ERR: ../main.py - AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+2025-07-23 18:42:59,708 [ERROR] app - [2025-07-23 18:42:20] Script ERR: ../main.py - 2025-07-23 18:42:50.170938: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-07-23 18:42:59,708 [ERROR] app - [2025-07-23 18:42:20] Script ERR: ../main.py - AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+2025-07-23 18:42:59,716 [ERROR] app - [2025-07-23 18:42:20] Script ERR: ../main.py - AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+2025-07-23 18:42:59,716 [INFO] app - [2025-07-23 18:42:20] Script SUCCESS: ../main.py executed successfully.
+2025-07-23 18:42:59,716 [INFO] app - Full pipeline execution completed.
+2025-07-23 18:42:59,719 [INFO] uvicorn.access - 192.168.152.192:40183 - "GET /pipeline/run_main_file HTTP/1.1" 200
+2025-07-23 18:44:05,230 [INFO] uvicorn.error - Shutting down
+2025-07-23 18:44:05,341 [INFO] uvicorn.error - Waiting for application shutdown.
+2025-07-23 18:44:05,341 [INFO] uvicorn.error - Application shutdown complete.
+2025-07-23 18:44:05,341 [INFO] uvicorn.error - Finished server process [44716]
+2025-07-23 18:44:07,463 [INFO] uvicorn.error - Started server process [33548]
+2025-07-23 18:44:07,463 [INFO] uvicorn.error - Waiting for application startup.
+2025-07-23 18:44:07,463 [INFO] uvicorn.error - Application startup complete.
+2025-07-23 18:44:12,568 [INFO] app - API Key validated successfully.
+2025-07-23 18:44:12,568 [INFO] app - Received request to run full pipeline.
+2025-07-23 18:44:12,568 [INFO] app - Starting full pipeline...
+2025-07-23 18:44:12,568 [INFO] app - [2025-07-23 18:44:12] Attempting to run script: ../main.py
+2025-07-23 18:45:14,212 [INFO] app - [2025-07-23 18:44:12] Script OUT: ../main.py - main.py file has started
+2025-07-23 18:45:14,219 [INFO] app - [2025-07-23 18:44:12] Script OUT: ../main.py - Navigating to https://finviz.com/news.ashx?v=3...
+2025-07-23 18:45:14,220 [ERROR] app - [2025-07-23 18:44:12] Script ERR: ../main.py - 2025-07-23 18:44:43.427075: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-07-23 18:45:14,220 [ERROR] app - [2025-07-23 18:44:12] Script ERR: ../main.py - AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+2025-07-23 18:45:14,220 [ERROR] app - [2025-07-23 18:44:12] Script ERR: ../main.py - AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+2025-07-23 18:45:14,220 [ERROR] app - [2025-07-23 18:44:12] Script ERR: ../main.py - AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+2025-07-23 18:45:14,220 [ERROR] app - [2025-07-23 18:44:12] Script ERR: ../main.py - 2025-07-23 18:44:48.170534: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-07-23 18:45:14,220 [ERROR] app - [2025-07-23 18:44:12] Script ERR: ../main.py - AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+2025-07-23 18:45:14,220 [ERROR] app - [2025-07-23 18:44:12] Script ERR: ../main.py - AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+2025-07-23 18:45:14,220 [ERROR] app - [2025-07-23 18:44:12] Script ERR: ../main.py - Traceback (most recent call last):
+2025-07-23 18:45:14,220 [ERROR] app - [2025-07-23 18:44:12] Script ERR: ../main.py -   File "C:\Users\Narendra\OneDrive\Desktop\self_learning_model\main.py", line 45, in <module>
+2025-07-23 18:45:14,220 [ERROR] app - [2025-07-23 18:44:12] Script ERR: ../main.py -     run_full_pipeline()
+2025-07-23 18:45:14,220 [ERROR] app - [2025-07-23 18:44:12] Script ERR: ../main.py -   File "C:\Users\Narendra\OneDrive\Desktop\self_learning_model\main.py", line 12, in run_full_pipeline
+2025-07-23 18:45:14,225 [ERROR] app - [2025-07-23 18:44:12] Script ERR: ../main.py -     finviz_stock_scraper.finviz_stock_news_scraper()
+2025-07-23 18:45:14,226 [ERROR] app - [2025-07-23 18:44:12] Script ERR: ../main.py -   File "C:\Users\Narendra\OneDrive\Desktop\self_learning_model\scrapers\finviz_stock_news_scraper.py", line 105, in finviz_stock_news_scraper
+2025-07-23 18:45:14,226 [ERROR] app - [2025-07-23 18:44:12] Script ERR: ../main.py -     data_lines = scrape_stock_news(driver)
+2025-07-23 18:45:14,226 [ERROR] app - [2025-07-23 18:44:12] Script ERR: ../main.py -                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-07-23 18:45:14,228 [ERROR] app - [2025-07-23 18:44:12] Script ERR: ../main.py -   File "C:\Users\Narendra\OneDrive\Desktop\self_learning_model\scrapers\finviz_stock_news_scraper.py", line 30, in scrape_stock_news
+2025-07-23 18:45:14,228 [ERROR] app - [2025-07-23 18:44:12] Script ERR: ../main.py -     print(f"\u2705 Found {len(rows)} rows.")
+2025-07-23 18:45:14,228 [ERROR] app - [2025-07-23 18:44:12] Script ERR: ../main.py -   File "C:\Users\Narendra\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+2025-07-23 18:45:14,228 [ERROR] app - [2025-07-23 18:44:12] Script ERR: ../main.py -     return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+2025-07-23 18:45:14,228 [ERROR] app - [2025-07-23 18:44:12] Script ERR: ../main.py -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-07-23 18:45:14,228 [ERROR] app - [2025-07-23 18:44:12] Script ERR: ../main.py - UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-07-23 18:45:14,228 [ERROR] app - [2025-07-23 18:44:12] Script FAILED: ../main.py exited with code 1. STDOUT: main.py file has started
+Navigating to https://finviz.com/news.ashx?v=3.... STDERR: 2025-07-23 18:44:43.427075: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+2025-07-23 18:44:48.170534: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+Traceback (most recent call last):
+  File "C:\Users\Narendra\OneDrive\Desktop\self_learning_model\main.py", line 45, in <module>
+    run_full_pipeline()
+  File "C:\Users\Narendra\OneDrive\Desktop\self_learning_model\main.py", line 12, in run_full_pipeline
+    finviz_stock_scraper.finviz_stock_news_scraper()
+  File "C:\Users\Narendra\OneDrive\Desktop\self_learning_model\scrapers\finviz_stock_news_scraper.py", line 105, in finviz_stock_news_scraper
+    data_lines = scrape_stock_news(driver)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Narendra\OneDrive\Desktop\self_learning_model\scrapers\finviz_stock_news_scraper.py", line 30, in scrape_stock_news
+    print(f"\u2705 Found {len(rows)} rows.")
+  File "C:\Users\Narendra\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-07-23 18:45:14,228 [ERROR] app - Pipeline: Script '../main.py' failed. Halting or continuing based on pipeline logic.
+2025-07-23 18:45:14,228 [INFO] app - Full pipeline execution completed.
+2025-07-23 18:45:14,234 [INFO] uvicorn.access - 192.168.152.192:40276 - "GET /pipeline/run_main_file HTTP/1.1" 200
+2025-07-23 18:45:42,855 [WARNING] app - Invalid or missing API Key attempt from: None
+2025-07-23 18:45:42,857 [INFO] uvicorn.access - 192.168.152.192:40384 - "GET / HTTP/1.1" 403
+2025-07-23 18:45:45,096 [INFO] uvicorn.access - 192.168.152.192:40384 - "GET /favicon.ico HTTP/1.1" 404
+2025-07-23 18:52:29,864 [INFO] uvicorn.error - Started server process [9724]
+2025-07-23 18:52:29,864 [INFO] uvicorn.error - Waiting for application startup.
+2025-07-23 18:52:29,864 [INFO] uvicorn.error - Application startup complete.
+2025-07-23 18:53:07,407 [INFO] app - API Key validated successfully.
+2025-07-23 18:53:07,407 [INFO] app - Received request for root route (list all routes).
+2025-07-23 18:53:07,407 [INFO] app - Successfully listed all routes.
+2025-07-23 18:53:07,407 [INFO] uvicorn.access - 192.168.152.192:40795 - "GET / HTTP/1.1" 200
+2025-07-23 18:53:28,749 [INFO] uvicorn.access - 192.168.152.192:40816 - "GET /pipeline-run_main_file HTTP/1.1" 404
+2025-07-23 18:53:37,197 [INFO] app - API Key validated successfully.
+2025-07-23 18:53:37,197 [INFO] app - Received request to run finviz_stock_news_scraper.
+2025-07-23 18:53:37,197 [INFO] app - [2025-07-23 18:53:37] Attempting to run script: main.py
+2025-07-23 18:53:37,254 [ERROR] app - [2025-07-23 18:53:37] Script ERR: main.py - python: can't open file 'C:\\Users\\Narendra\\OneDrive\\Desktop\\self_learning_model\\API\\main.py': [Errno 2] No such file or directory
+2025-07-23 18:53:37,255 [ERROR] app - [2025-07-23 18:53:37] Script FAILED: main.py exited with code 2. STDOUT: . STDERR: python: can't open file 'C:\\Users\\Narendra\\OneDrive\\Desktop\\self_learning_model\\API\\main.py': [Errno 2] No such file or directory
+2025-07-23 18:53:37,255 [INFO] uvicorn.access - 192.168.152.192:40836 - "GET /pipeline/run_main_file HTTP/1.1" 200
+2025-07-23 18:54:13,741 [INFO] uvicorn.error - Shutting down
+2025-07-23 18:54:13,852 [INFO] uvicorn.error - Waiting for application shutdown.
+2025-07-23 18:54:13,852 [INFO] uvicorn.error - Application shutdown complete.
+2025-07-23 18:54:13,852 [INFO] uvicorn.error - Finished server process [9724]
+2025-07-23 18:54:14,932 [INFO] uvicorn.error - Started server process [23268]
+2025-07-23 18:54:14,932 [INFO] uvicorn.error - Waiting for application startup.
+2025-07-23 18:54:14,932 [INFO] uvicorn.error - Application startup complete.
+2025-07-23 18:54:20,335 [INFO] app - API Key validated successfully.
+2025-07-23 18:54:20,335 [INFO] app - Received request to run finviz_stock_news_scraper.
+2025-07-23 18:54:20,335 [INFO] app - [2025-07-23 18:54:20] Attempting to run script: ../main.py
+2025-07-23 18:55:53,058 [INFO] app - [2025-07-23 18:54:20] Script OUT: ../main.py - main.py file has started
+2025-07-23 18:55:53,058 [INFO] app - [2025-07-23 18:54:20] Script OUT: ../main.py - Navigating to https://finviz.com/news.ashx?v=3...
+2025-07-23 18:55:53,058 [ERROR] app - [2025-07-23 18:54:20] Script ERR: ../main.py - 2025-07-23 18:54:43.832769: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-07-23 18:55:53,058 [ERROR] app - [2025-07-23 18:54:20] Script ERR: ../main.py - AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+2025-07-23 18:55:53,058 [ERROR] app - [2025-07-23 18:54:20] Script ERR: ../main.py - AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+2025-07-23 18:55:53,058 [ERROR] app - [2025-07-23 18:54:20] Script ERR: ../main.py - AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+2025-07-23 18:55:53,058 [ERROR] app - [2025-07-23 18:54:20] Script ERR: ../main.py - 2025-07-23 18:54:47.719452: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-07-23 18:55:53,058 [ERROR] app - [2025-07-23 18:54:20] Script ERR: ../main.py - AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+2025-07-23 18:55:53,058 [ERROR] app - [2025-07-23 18:54:20] Script ERR: ../main.py - AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+2025-07-23 18:55:53,058 [ERROR] app - [2025-07-23 18:54:20] Script ERR: ../main.py - Traceback (most recent call last):
+2025-07-23 18:55:53,058 [ERROR] app - [2025-07-23 18:54:20] Script ERR: ../main.py -   File "C:\Users\Narendra\OneDrive\Desktop\self_learning_model\main.py", line 45, in <module>
+2025-07-23 18:55:53,058 [ERROR] app - [2025-07-23 18:54:20] Script ERR: ../main.py -     run_full_pipeline()
+2025-07-23 18:55:53,068 [ERROR] app - [2025-07-23 18:54:20] Script ERR: ../main.py -   File "C:\Users\Narendra\OneDrive\Desktop\self_learning_model\main.py", line 12, in run_full_pipeline
+2025-07-23 18:55:53,069 [ERROR] app - [2025-07-23 18:54:20] Script ERR: ../main.py -     finviz_stock_scraper.finviz_stock_news_scraper()
+2025-07-23 18:55:53,069 [ERROR] app - [2025-07-23 18:54:20] Script ERR: ../main.py -   File "C:\Users\Narendra\OneDrive\Desktop\self_learning_model\scrapers\finviz_stock_news_scraper.py", line 105, in finviz_stock_news_scraper
+2025-07-23 18:55:53,069 [ERROR] app - [2025-07-23 18:54:20] Script ERR: ../main.py -     data_lines = scrape_stock_news(driver)
+2025-07-23 18:55:53,070 [ERROR] app - [2025-07-23 18:54:20] Script ERR: ../main.py -                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-07-23 18:55:53,071 [ERROR] app - [2025-07-23 18:54:20] Script ERR: ../main.py -   File "C:\Users\Narendra\OneDrive\Desktop\self_learning_model\scrapers\finviz_stock_news_scraper.py", line 30, in scrape_stock_news
+2025-07-23 18:55:53,071 [ERROR] app - [2025-07-23 18:54:20] Script ERR: ../main.py -     print(f"\u2705 Found {len(rows)} rows.")
+2025-07-23 18:55:53,071 [ERROR] app - [2025-07-23 18:54:20] Script ERR: ../main.py -   File "C:\Users\Narendra\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+2025-07-23 18:55:53,071 [ERROR] app - [2025-07-23 18:54:20] Script ERR: ../main.py -     return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+2025-07-23 18:55:53,073 [ERROR] app - [2025-07-23 18:54:20] Script ERR: ../main.py -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-07-23 18:55:53,073 [ERROR] app - [2025-07-23 18:54:20] Script ERR: ../main.py - UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-07-23 18:55:53,073 [ERROR] app - [2025-07-23 18:54:20] Script FAILED: ../main.py exited with code 1. STDOUT: main.py file has started
+Navigating to https://finviz.com/news.ashx?v=3.... STDERR: 2025-07-23 18:54:43.832769: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+2025-07-23 18:54:47.719452: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+Traceback (most recent call last):
+  File "C:\Users\Narendra\OneDrive\Desktop\self_learning_model\main.py", line 45, in <module>
+    run_full_pipeline()
+  File "C:\Users\Narendra\OneDrive\Desktop\self_learning_model\main.py", line 12, in run_full_pipeline
+    finviz_stock_scraper.finviz_stock_news_scraper()
+  File "C:\Users\Narendra\OneDrive\Desktop\self_learning_model\scrapers\finviz_stock_news_scraper.py", line 105, in finviz_stock_news_scraper
+    data_lines = scrape_stock_news(driver)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Narendra\OneDrive\Desktop\self_learning_model\scrapers\finviz_stock_news_scraper.py", line 30, in scrape_stock_news
+    print(f"\u2705 Found {len(rows)} rows.")
+  File "C:\Users\Narendra\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-07-23 18:55:53,073 [INFO] uvicorn.access - 192.168.152.192:40883 - "GET /pipeline/run_main_file HTTP/1.1" 200
+2025-07-23 18:56:17,799 [INFO] uvicorn.error - Shutting down
+2025-07-23 18:56:17,909 [INFO] uvicorn.error - Waiting for application shutdown.
+2025-07-23 18:56:17,909 [INFO] uvicorn.error - Application shutdown complete.
+2025-07-23 18:56:17,909 [INFO] uvicorn.error - Finished server process [23268]
+2025-07-23 19:12:28,690 [INFO] uvicorn.error - Started server process [7368]
+2025-07-23 19:12:28,690 [INFO] uvicorn.error - Waiting for application startup.
+2025-07-23 19:12:28,690 [INFO] uvicorn.error - Application startup complete.
+2025-07-23 19:13:31,173 [WARNING] app - Invalid or missing API Key attempt from: None
+2025-07-23 19:13:31,173 [INFO] uvicorn.access - 192.168.152.248:60682 - "GET / HTTP/1.1" 403
+2025-07-23 19:14:04,798 [WARNING] app - Invalid or missing API Key attempt from: None
+2025-07-23 19:14:04,798 [INFO] uvicorn.access - 192.168.152.248:47138 - "GET / HTTP/1.1" 403
+2025-07-23 19:15:06,480 [INFO] app - API Key validated successfully.
+2025-07-23 19:15:06,480 [INFO] app - Received request for root route (list all routes).
+2025-07-23 19:15:06,480 [INFO] app - Successfully listed all routes.
+2025-07-23 19:15:06,480 [INFO] uvicorn.access - 192.168.152.248:43022 - "GET / HTTP/1.1" 200
+2025-07-23 19:15:44,054 [INFO] app - API Key validated successfully.
+2025-07-23 19:15:44,054 [INFO] app - Received request to fetch full logs.
+2025-07-23 19:15:44,054 [INFO] app - Logs fetched successfully.
+2025-07-23 19:15:44,054 [INFO] uvicorn.access - 192.168.152.248:59570 - "GET /logs HTTP/1.1" 200
+2025-07-23 19:16:01,780 [INFO] app - API Key validated successfully.
+2025-07-23 19:16:01,780 [INFO] app - Received request for root route (list all routes).
+2025-07-23 19:16:01,784 [INFO] app - Successfully listed all routes.
+2025-07-23 19:16:01,784 [INFO] uvicorn.access - 192.168.152.248:49150 - "GET / HTTP/1.1" 200
+2025-07-23 19:16:06,034 [INFO] app - API Key validated successfully.
+2025-07-23 19:16:06,034 [INFO] app - Received request for root route (list all routes).
+2025-07-23 19:16:06,034 [INFO] app - Successfully listed all routes.
+2025-07-23 19:16:06,034 [INFO] uvicorn.access - 192.168.152.248:34030 - "GET / HTTP/1.1" 200
+2025-07-23 19:16:18,158 [INFO] app - API Key validated successfully.
+2025-07-23 19:16:18,158 [INFO] app - Received request for root route (list all routes).
+2025-07-23 19:16:18,158 [INFO] app - Successfully listed all routes.
+2025-07-23 19:16:18,158 [INFO] uvicorn.access - 192.168.152.248:37782 - "GET / HTTP/1.1" 200
+2025-07-23 19:16:22,155 [INFO] app - API Key validated successfully.
+2025-07-23 19:16:22,155 [INFO] app - Received request for root route (list all routes).
+2025-07-23 19:16:22,155 [INFO] app - Successfully listed all routes.
+2025-07-23 19:16:22,155 [INFO] uvicorn.access - 192.168.152.248:37786 - "GET / HTTP/1.1" 200
+2025-07-23 19:16:44,784 [INFO] app - API Key validated successfully.
+2025-07-23 19:16:44,784 [INFO] app - Received request to download log file.
+2025-07-23 19:16:44,784 [INFO] app - Log file prepared for download.
+2025-07-23 19:16:44,924 [INFO] uvicorn.access - 192.168.152.248:38114 - "GET /logs/download HTTP/1.1" 200
+2025-07-23 19:16:44,926 [ERROR] uvicorn.error - Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\Narendra\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 419, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Narendra\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Narendra\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Narendra\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Narendra\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Narendra\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Narendra\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Narendra\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Narendra\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Narendra\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Narendra\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Narendra\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Narendra\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 78, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Narendra\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Narendra\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Narendra\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 76, in app
+    await response(scope, receive, send)
+  File "C:\Users\Narendra\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\responses.py", line 369, in __call__
+    await self._handle_simple(send, send_header_only, send_pathsend)
+  File "C:\Users\Narendra\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\responses.py", line 400, in _handle_simple
+    await send({"type": "http.response.body", "body": chunk, "more_body": more_body})
+  File "C:\Users\Narendra\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_exception_handler.py", line 39, in sender
+    await send(message)
+  File "C:\Users\Narendra\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_exception_handler.py", line 39, in sender
+    await send(message)
+  File "C:\Users\Narendra\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\errors.py", line 161, in _send
+    await send(message)
+  File "C:\Users\Narendra\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 553, in send
+    raise RuntimeError("Response content longer than Content-Length")
+RuntimeError: Response content longer than Content-Length
+2025-07-23 19:17:02,493 [INFO] app - API Key validated successfully.
+2025-07-23 19:17:02,493 [INFO] app - Received request for root route (list all routes).
+2025-07-23 19:17:02,493 [INFO] app - Successfully listed all routes.
+2025-07-23 19:17:02,493 [INFO] uvicorn.access - 192.168.152.248:39290 - "GET / HTTP/1.1" 200
+2025-07-23 19:17:21,947 [INFO] uvicorn.access - 192.168.152.248:54830 - "GET /docs HTTP/1.1" 200
+2025-07-23 19:17:29,844 [INFO] app - API Key validated successfully.
+2025-07-23 19:17:29,844 [INFO] app - Received request for root route (list all routes).
+2025-07-23 19:17:29,844 [INFO] app - Successfully listed all routes.
+2025-07-23 19:17:29,844 [INFO] uvicorn.access - 192.168.152.248:35072 - "GET / HTTP/1.1" 200
+2025-07-23 19:17:42,137 [INFO] app - API Key validated successfully.
+2025-07-23 19:17:42,137 [INFO] app - Received request to tail logs (last 50 lines).
+2025-07-23 19:17:42,153 [INFO] app - Tail logs fetched successfully.
+2025-07-23 19:17:42,153 [INFO] uvicorn.access - 192.168.152.248:59206 - "GET /logs/tail HTTP/1.1" 200
+2025-07-23 19:18:03,413 [INFO] uvicorn.access - 192.168.152.248:56220 - "GET /logs/tails HTTP/1.1" 404
+2025-07-23 19:18:12,324 [INFO] uvicorn.error - Shutting down
+2025-07-23 19:18:12,435 [INFO] uvicorn.error - Waiting for application shutdown.
+2025-07-23 19:18:12,435 [INFO] uvicorn.error - Application shutdown complete.
+2025-07-23 19:18:12,435 [INFO] uvicorn.error - Finished server process [7368]
