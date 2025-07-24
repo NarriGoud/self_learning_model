@@ -4,6 +4,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 import time
+import tempfile
 import os
 import csv
 
@@ -14,8 +15,14 @@ YEAR = "2025"
 
 def setup_driver():
     options = Options()
-    options.add_experimental_option('excludeSwitches', ['enable-logging'])
-    # Use ChromeDriverManager to automatically download and manage the driver
+    options.add_argument("--ignore-certificate-errors")
+    options.add_argument("--allow-insecure-localhost")
+    options.add_argument("--disable-blink-features=AutomationControlled")
+    options.add_argument("--headless")  # Optional
+
+    # ✅ Add this to avoid user-data-dir conflict
+    user_data_dir = tempfile.mkdtemp()
+    options.add_argument(f"--user-data-dir={user_data_dir}")
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     return driver
 

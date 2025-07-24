@@ -2,7 +2,9 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.options import Options
 import time
+import tempfile
 import re
 import os
 
@@ -29,10 +31,21 @@ def scrape_all_tradingview(output_file: str = 'data/raw/tradingview_news.txt'):
         "https://in.tradingview.com/news/world/asia/",
         "https://in.tradingview.com/news/world/oceania/"
     ]
-        
-    # Use ChromeDriverManager to automatically download and manage the driver
+
+    options = Options()
+    options.add_argument("--ignore-certificate-errors")
+    options.add_argument("--allow-insecure-localhost")
+    options.add_argument("--disable-blink-features=AutomationControlled")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+
+    # ✅ Create a unique temporary user data dir BEFORE initializing the driver
+    user_data_dir = tempfile.mkdtemp()
+    options.add_argument(f"--user-data-dir={user_data_dir}")
+
     service = Service(ChromeDriverManager().install())
-    driver = webdriver.Chrome(service=service)
+    driver = webdriver.Chrome(service=service, options=options)
+
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
     with open(output_file, 'a', encoding='utf-8') as f:
