@@ -1,5 +1,5 @@
-import scrapers.finviz_stock_news_scraper as finviz_stock_scraper
 import scrapers.finviz_market_news_scraper as finviz_market_scraper
+import scrapers.finviz_stock_news_scraper as finviz_stock_scraper
 import scrapers.tradingview_news_scraper as tradingview_scraper
 import mergers.finviz_tradingview_csv_merger as finviz_tradingview_csv_merger
 import sentiments.finviz_stocknews_sentiment as finviz_stock_sentiment
