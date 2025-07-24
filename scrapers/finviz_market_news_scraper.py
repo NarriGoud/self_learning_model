@@ -2,20 +2,21 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
 import time
 import os
 import csv
 
 # --- Config ---
-CHROMEDRIVER_PATH = "C:\\Drivers\\Chrome drivers\\chromedriver.exe"
 TARGET_URL = "https://finviz.com/news.ashx?v=2"
 OUTPUT_FILE = "data/raw/finviz_market_news.txt"
 YEAR = "2025"
 
-def setup_driver(chromedriver_path):
+def setup_driver():
     options = Options()
     options.add_experimental_option('excludeSwitches', ['enable-logging'])
-    driver = webdriver.Chrome(service=Service(chromedriver_path), options=options)
+    # Use ChromeDriverManager to automatically download and manage the driver
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     return driver
 
 def scrape_news(driver, year):
@@ -55,7 +56,7 @@ def save_to_txt(data, output_file):
     print(f"Scraped {len(data)} news items and saved to {output_file}")
 
 def finviz_market_news_scraper():
-    driver = setup_driver(CHROMEDRIVER_PATH)
+    driver = setup_driver()
     try:
         data = scrape_news(driver, YEAR)
     finally:

@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
 import time
 import re
 import os
@@ -9,17 +10,17 @@ import csv
 from datetime import datetime
 
 # --- Config ---
-CHROMEDRIVER_PATH = "C:\\Drivers\\Chrome drivers\\chromedriver.exe"
 TARGET_URL = "https://finviz.com/news.ashx?v=3"
 OUTPUT_FILE = "data/raw/finviz_stock_news.txt"
 
-def setup_driver(chromedriver_path):
+def setup_driver():
     options = Options()
     options.add_argument("--ignore-certificate-errors")
     options.add_argument("--allow-insecure-localhost")
     options.add_argument("--disable-blink-features=AutomationControlled")
     # options.add_argument("--headless")  # Uncomment if headless mode is needed
-    return webdriver.Chrome(service=Service(chromedriver_path), options=options)
+    # Use ChromeDriverManager to automatically download and manage the driver
+    return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
 def scrape_stock_news(driver):
     print(f"Navigating to {TARGET_URL}...")
@@ -63,7 +64,7 @@ def save_to_txt(data_lines, output_file):
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
     with open(output_file, "w", encoding="utf-8") as f:
         for line in data_lines:
-            f.write(line + "\n")
+            f.write(line + "")
     print(f"✅ Scraped and saved {len(data_lines)} rows to '{output_file}'")
 
 def clean_finviz_news():
@@ -87,7 +88,7 @@ def clean_finviz_news():
         provider = parts[1]
         headline = parts[2] if len(parts) == 3 else parts[2]
 
-        tickers = list(set(re.findall(r"\b[A-Z]{1,5}\b", headline)))
+        tickers = list(set(re.findall(r"[A-Z]{1,5}", headline)))
 
         data.append([today, provider, headline.strip(), tickers])
 
@@ -100,7 +101,7 @@ def clean_finviz_news():
     print("✅ Cleaned CSV saved as:", output_csv)
 
 def finviz_stock_news_scraper():
-    driver = setup_driver(CHROMEDRIVER_PATH)
+    driver = setup_driver()
     try:
         data_lines = scrape_stock_news(driver)
     finally:

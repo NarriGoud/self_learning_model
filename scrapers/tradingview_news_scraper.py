@@ -1,11 +1,11 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
+from webdriver_manager.chrome import ChromeDriverManager
 import time
 import re
 import os
 
-driver_path = "C:\\Drivers\\Chrome drivers\\chromedriver.exe"
 def scrape_all_tradingview(output_file: str = 'data/raw/tradingview_news.txt'):
     # List of URLs to scrape
     urls = [
@@ -30,7 +30,8 @@ def scrape_all_tradingview(output_file: str = 'data/raw/tradingview_news.txt'):
         "https://in.tradingview.com/news/world/oceania/"
     ]
         
-    service = Service(driver_path)
+    # Use ChromeDriverManager to automatically download and manage the driver
+    service = Service(ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service)
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
@@ -56,7 +57,7 @@ def scrape_all_tradingview(output_file: str = 'data/raw/tradingview_news.txt'):
             min_len = min(len(timestamps), len(headlines), len(providers))
 
             for i in range(min_len):
-                f.write(f"[{timestamps[i]}] ({providers[i]}) {headlines[i]}\n")
+                f.write(f"[{timestamps[i]}] ({providers[i]}) {headlines[i]}")
 
             print(f"[✓] Done: {min_len} items scraped")
 
@@ -65,18 +66,18 @@ def scrape_all_tradingview(output_file: str = 'data/raw/tradingview_news.txt'):
 
 def parse_news_line(line):
     # Extract timestamp
-    timestamp_match = re.search(r"\[(.*?)\]", line)
+    timestamp_match = re.search(r"[(.*?)]", line)
     timestamp = timestamp_match.group(1).strip() if timestamp_match else ""
 
     # Extract provider
-    provider_match = re.search(r"\((.*?)\)", line)
+    provider_match = re.search(r"((.*?))", line)
     provider = provider_match.group(1).strip() if provider_match else ""
 
     # Get remaining content after provider
-    rest = re.split(r"\)\s*", line, maxsplit=1)[-1]
+    rest = re.split(r")s*", line, maxsplit=1)[-1]
 
     # Extract symbol and headline
-    symbol_match = re.match(r"([A-Z\-\/.]+):\s+", rest)
+    symbol_match = re.match(r"([A-Z-/.]+):s+", rest)
     if symbol_match:
         symbol = symbol_match.group(1).strip()
         headline = rest[symbol_match.end():].strip()
