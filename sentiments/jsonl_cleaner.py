@@ -15,8 +15,18 @@ def clean_jsonl(input_path, output_path, target_text):
     removed = 0
     seen_inputs = set()
 
+    # 🧠 Load existing inputs to avoid duplicates across appends
+    if os.path.exists(output_path):
+        with open(output_path, 'r', encoding='utf-8') as existing:
+            for line in existing:
+                try:
+                    item = json.loads(line.strip())
+                    seen_inputs.add(item.get("input", "").strip())
+                except:
+                    continue
+
     with open(input_path, 'r', encoding='utf-8') as infile, \
-         open(output_path, 'w', encoding='utf-8') as outfile:
+         open(output_path, 'a', encoding='utf-8') as outfile:  # append mode
 
         for line in infile:
             total += 1
@@ -47,13 +57,16 @@ def clean_jsonl(input_path, output_path, target_text):
 
     print(f"✅ [JSONL] Total rows processed: {total}")
     print(f"🗑️ [JSONL] Rows removed: {removed}")
-    print(f"📁 Cleaned file saved as: {output_path}")
+    print(f"📁 Appended to file: {output_path}")
 
 
 def clean_csv(input_path, output_path, target_text):
     total = 0
     removed = 0
     seen_inputs = set()
+
+    # 🚫 Appending CSV is more complex. This block assumes rewrite only.
+    # If needed, we can implement smart append with deduplication.
 
     with open(input_path, 'r', encoding='utf-8', newline='') as infile, \
          open(output_path, 'w', encoding='utf-8', newline='') as outfile:
