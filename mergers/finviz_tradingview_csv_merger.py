@@ -49,7 +49,7 @@ def parse_and_merge_news():
     # Save to CSV
     with open(OUTPUT_FILE, "w", encoding="utf-8", newline='') as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerow(["Date", "Provider", "Headline"])
+        writer.writerow(["date", "provider", "headline"])
         writer.writerows(parsed_rows)
 
     print(f"✅ Parsed {len(parsed_rows)} headlines. Saved to '{OUTPUT_FILE}'")
