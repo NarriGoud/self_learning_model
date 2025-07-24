@@ -24,19 +24,10 @@ def setup_driver():
     options.add_argument("--ignore-certificate-errors")
     options.add_argument("--allow-insecure-localhost")
     options.add_argument("--disable-blink-features=AutomationControlled")
-    options.add_argument("--headless=new")  # Use new headless mode (better support)
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
 
-    # ✅ Use a unique temp directory to avoid conflicts
-    user_data_dir = tempfile.mkdtemp()
-    options.add_argument(f"--user-data-dir={user_data_dir}")
-
-    # Launch driver
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
-
-    # Attach the path for later cleanup
-    driver.user_data_dir = user_data_dir
     return driver
 
 
