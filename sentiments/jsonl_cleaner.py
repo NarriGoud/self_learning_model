@@ -1,10 +1,11 @@
 import json
-import csv
 import os
+import random
 
 # 🔧 Configuration
-INPUT_FILE = "data/converted_jsonl/converted.jsonl"   # or "sentiment_output.csv"
-OUTPUT_FILE = "data/cleaned_jsonl/final_cleaned.jsonl"    # or "cleaned_output.csv"
+INPUT_FILE = "data/converted_jsonl/converted.jsonl"
+OUTPUT_FILE = "data/cleaned_jsonl/final_cleaned.jsonl"
+SHUFFLED_OUTPUT_FILE = "data/final_shuffled/final_cleaned_shuffled.jsonl"
 TARGET_TEXT = "Sign in to read exclusive news"
 
 def normalize_text(text):
@@ -59,57 +60,30 @@ def clean_jsonl(input_path, output_path, target_text):
     print(f"🗑️ [JSONL] Rows removed: {removed}")
     print(f"📁 Appended to file: {output_path}")
 
+    # 👉 Automatically shuffle after cleaning
+    shuffler(output_path, SHUFFLED_OUTPUT_FILE)
 
-def clean_csv(input_path, output_path, target_text):
-    total = 0
-    removed = 0
-    seen_inputs = set()
+def shuffler(input_path="data/cleaned_jsonl/final_cleaned.jsonl", output_path="data/cleaned_jsonl/final_cleaned_shuffled.jsonl"):
+    # 🔄 Read lines
+    with open(input_path, 'r', encoding='utf-8') as infile:
+        data = [json.loads(line) for line in infile]
 
-    # 🚫 Appending CSV is more complex. This block assumes rewrite only.
-    # If needed, we can implement smart append with deduplication.
+    # 🔀 Shuffle
+    random.shuffle(data)
 
-    with open(input_path, 'r', encoding='utf-8', newline='') as infile, \
-         open(output_path, 'w', encoding='utf-8', newline='') as outfile:
+    # 💾 Write shuffled lines
+    with open(output_path, 'w', encoding='utf-8') as outfile:
+        for item in data:
+            outfile.write(json.dumps(item, ensure_ascii=False) + '\n')
 
-        reader = csv.DictReader(infile)
-        fieldnames = reader.fieldnames
-        writer = csv.DictWriter(outfile, fieldnames=fieldnames)
-        writer.writeheader()
-
-        for row in reader:
-            total += 1
-            input_text = normalize_text(row.get("input", ""))
-            output_text = row.get("output", "").strip()
-
-            row["input"] = input_text  # Normalize input
-
-            if (
-                not input_text or
-                input_text == target_text or
-                len(output_text) < 5 or
-                input_text in seen_inputs
-            ):
-                removed += 1
-                continue
-
-            seen_inputs.add(input_text)
-            writer.writerow(row)
-
-    print(f"✅ [CSV] Total rows processed: {total}")
-    print(f"🗑️ [CSV] Rows removed: {removed}")
-    print(f"📁 Cleaned file saved as: {output_path}")
-
+    print(f"🔀 Shuffled JSONL saved to: {output_path}")
 
 def jsonl_cleaner():
     ext = os.path.splitext(INPUT_FILE)[1].lower()
     if ext == ".jsonl":
         clean_jsonl(INPUT_FILE, OUTPUT_FILE, TARGET_TEXT)
-    elif ext == ".csv":
-        clean_csv(INPUT_FILE, OUTPUT_FILE, TARGET_TEXT)
     else:
-        print("❌ Unsupported file type. Please use a .jsonl or .csv file.")
+        print("❌ Unsupported file type. Please use a .jsonl file.")
 
 if __name__ == "__main__":
     jsonl_cleaner()
-
-

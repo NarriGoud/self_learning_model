@@ -43,8 +43,8 @@ def finviz_tradingview_sentiment():
         return ', '.join(sorted(set(tickers)))
 
     # Apply both sentiment and ticker extraction
-    df["sentiment"] = df["Headline"].fillna("").apply(get_sentiment)
-    df["tickers"] = df["Headline"].fillna("").apply(extract_tickers)
+    df["sentiment"] = df["headline"].fillna("").apply(get_sentiment)
+    df["tickers"] = df["headline"].fillna("").apply(extract_tickers)
 
     # Save output
     output_path = r"data/sentiment_encoded/finviz_sentiment_tradingview.csv"
