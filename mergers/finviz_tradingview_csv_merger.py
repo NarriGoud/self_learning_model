@@ -57,3 +57,5 @@ def parse_and_merge_news():
 # Example call
 if __name__ == "__main__":
     parse_and_merge_news()
+
+

@@ -112,3 +112,5 @@ def finviz_stock_news_scraper():
 
 if __name__ == "__main__":
     finviz_stock_news_scraper()
+
+

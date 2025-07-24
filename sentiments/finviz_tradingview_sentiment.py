@@ -54,3 +54,5 @@ def finviz_tradingview_sentiment():
 
 if __name__ == "__main__":
     finviz_tradingview_sentiment()
+
+

@@ -65,3 +65,5 @@ def finviz_market_news_scraper():
 
 if __name__ == "__main__":
     finviz_market_news_scraper()
+
+
