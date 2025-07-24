@@ -7,23 +7,35 @@ import time
 import tempfile
 import os
 import csv
+import shutil
 
 # --- Config ---
 TARGET_URL = "https://finviz.com/news.ashx?v=2"
 OUTPUT_FILE = "data/raw/finviz_market_news.txt"
 YEAR = "2025"
 
+def cleanup_driver(driver):
+    if hasattr(driver, "user_data_dir"):
+        shutil.rmtree(driver.user_data_dir, ignore_errors=True)
+
 def setup_driver():
     options = Options()
     options.add_argument("--ignore-certificate-errors")
     options.add_argument("--allow-insecure-localhost")
     options.add_argument("--disable-blink-features=AutomationControlled")
-    options.add_argument("--headless")  # Optional
+    options.add_argument("--headless=new")  # Use new headless mode (better support)
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
 
-    # ✅ Add this to avoid user-data-dir conflict
+    # ✅ Use a unique temp directory to avoid conflicts
     user_data_dir = tempfile.mkdtemp()
     options.add_argument(f"--user-data-dir={user_data_dir}")
+
+    # Launch driver
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+
+    # Attach the path for later cleanup
+    driver.user_data_dir = user_data_dir
     return driver
 
 def scrape_news(driver, year):
@@ -68,6 +80,7 @@ def finviz_market_news_scraper():
         data = scrape_news(driver, YEAR)
     finally:
         driver.quit()
+        cleanup_driver(driver)
     save_to_txt(data, OUTPUT_FILE)
 
 if __name__ == "__main__":

@@ -7,6 +7,7 @@ import time
 import tempfile
 import re
 import os
+import shutil
 
 def scrape_all_tradingview(output_file: str = 'data/raw/tradingview_news.txt'):
     # List of URLs to scrape
@@ -38,13 +39,17 @@ def scrape_all_tradingview(output_file: str = 'data/raw/tradingview_news.txt'):
     options.add_argument("--disable-blink-features=AutomationControlled")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--headless=new")  # ✅ Recommended headless mode
 
-    # ✅ Create a unique temporary user data dir BEFORE initializing the driver
+    # ✅ Create a unique temp user data dir
     user_data_dir = tempfile.mkdtemp()
     options.add_argument(f"--user-data-dir={user_data_dir}")
 
     service = Service(ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service, options=options)
+
+    # 🧹 Save the path to cleanup later
+    driver.user_data_dir = user_data_dir
 
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
@@ -75,7 +80,13 @@ def scrape_all_tradingview(output_file: str = 'data/raw/tradingview_news.txt'):
             print(f"[✓] Done: {min_len} items scraped")
 
     driver.quit()
+    cleanup_driver(driver)
     print("[✔] All done! Saved to", output_file)
+
+
+def cleanup_driver(driver):
+    if hasattr(driver, "user_data_dir"):
+        shutil.rmtree(driver.user_data_dir, ignore_errors=True)
 
 def parse_news_line(line):
     # Extract timestamp
